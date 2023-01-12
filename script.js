@@ -3,7 +3,7 @@ var enviar = document.getElementById("enviar")
 var saida = document.getElementById("saida")
 
 function copiarEntrada() {
-    saida.textContent = entrada.value;
+    saida.innerHTML = entrada.value;
 }
 
 enviar.addEventListener("click", copiarEntrada)
